@@ -1,5 +1,4 @@
-set number
-
+" Vundle configuration
 set nocompatible
 filetype off
 
@@ -28,6 +27,8 @@ Plugin 'php_template'
 Plugin 'php.vim'
 
 Plugin 'Solarized'
+Plugin 'altercation/vim-colors-solarized'
+
 Plugin 'SuperTab'
 Plugin 'The-NERD-tree'
 Plugin 'The-NERD-Commenter'
@@ -63,3 +64,11 @@ filetype plugin indent on	" required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" Solarized
+syntax enable
+set background=dark
+colorscheme solarized
+
+set hlsearch
+set number
