@@ -17,14 +17,14 @@ Plugin 'Lokaltog/powerline'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
-Plugin 'phpqa'
+"Plugin 'phpqa'
 Plugin 'Syntastic'
 
-Plugin 'php.vim-html-enhanced'
-Plugin 'php.vim-for-php5'
-Plugin 'php_check_syntax.vim'
-Plugin 'php_template'
-Plugin 'php.vim'
+"Plugin 'php.vim-html-enhanced'
+"Plugin 'php.vim-for-php5'
+"Plugin 'php_check_syntax.vim'
+"Plugin 'php_template'
+"Plugin 'php.vim'
 
 Plugin 'Solarized'
 Plugin 'altercation/vim-colors-solarized'
@@ -35,7 +35,6 @@ Plugin 'The-NERD-Commenter'
 Plugin 'fugitive.vim'
 Plugin 'Tagbar'
 Plugin 'EasyMotion'
-
 
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
@@ -72,3 +71,9 @@ colorscheme solarized
 
 set hlsearch
 set number
+
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
